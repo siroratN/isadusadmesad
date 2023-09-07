@@ -8,5 +8,6 @@
 <body>
     <a href = 'customer.php'>USERS</a>
     <a href = 'admin.php'>ADMIN</a>
+    <a href = 'admin.php'>ADMINN</a>
 </body>
 </html>
