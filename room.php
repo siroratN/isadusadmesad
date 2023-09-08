@@ -20,7 +20,8 @@
                 </div>
                 
                 <div class="card-body">
-                <a href="managroom.php" class="btn btn-success mb-4">ADD ROOM</a>
+                <a href="addtype.php" class="btn btn-success mb-4">ADD ROOM TYPE</a>
+                <a href="addroom.php" class="btn btn-success mb-4">ADD ROOM</a>
                     <table class="table table-bordered text-center">
                         <tr class="bg-dark text-white">
                             <td>ID</td>

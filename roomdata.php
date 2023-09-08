@@ -1,18 +1,22 @@
 <?php
 require('dbconnect.php');
 
-$room_type=$_POST['room_type'];
-$amount=$_POST['amount'];
-$room_id=$_POST['room_id'];
-$room_name=$_POST['room_name'];
+$type_id=$_POST['type_name'];
 $room_number=$_POST['room_number'];
+$max_child=$_POST['max_child'];
+$max_adult=$_POST['max_adult'];
+$detail=$_POST['detail'];
+$imagepath=$_POST['imagepath'];
 
-$sql = "INSERT INTO room(room_type,amount,room_id,room_name,room_number)
-        VALUES('$room_type','$amount','$room_id','$room_name','$room_number')";
+$sql = "INSERT INTO rooms(room_number,floor,type_id,building_id,max_child,max_adult,detail,imagepath,status_room)
+        VALUES('$room_number',NULL,'$type_id',NULL,'$max_child','$max_adult','$detail','$imagepath',NULL)";
 
 $result=mysqli_query($con,$sql);
 if ($result) {
     echo "<script>alert('เพิ่มข้อมูลเรียบร้อย');</script>";
     echo "<script>window.location='room.php';</script>";
+}
+else {
+    echo("Error description: " . mysqli_error($con));
 }
 ?>

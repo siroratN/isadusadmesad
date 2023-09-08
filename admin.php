@@ -7,5 +7,7 @@
 </head>
 <body>
     <a href = 'room.php'>จัดการห้อง</a>
+    <a href = 'room.php'>จัดการการจอง</a>
+    <a href = 'room.php'>จัดการการชำระเงิน</a>
 </body>
 </html>
