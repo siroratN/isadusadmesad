@@ -2,6 +2,7 @@
 require('dbconnect.php');
 
 $type_id=$_POST['type_name'];
+$floor=$_POST['floor'];
 $room_number=$_POST['room_number'];
 $max_child=$_POST['max_child'];
 $max_adult=$_POST['max_adult'];
@@ -9,7 +10,7 @@ $detail=$_POST['detail'];
 $imagepath=$_POST['imagepath'];
 
 $sql = "INSERT INTO rooms(room_number,floor,type_id,building_id,max_child,max_adult,detail,imagepath,status_room)
-        VALUES('$room_number',NULL,'$type_id',NULL,'$max_child','$max_adult','$detail','$imagepath',NULL)";
+        VALUES('$room_number',$floor,'$type_id',NULL,'$max_child','$max_adult','$detail','$imagepath',NULL)";
 
 $result=mysqli_query($con,$sql);
 if ($result) {

@@ -9,19 +9,19 @@
 <div class='container my-3'>
         <h2>เพิ่มประเภทห้อง</h2>
         <form action="typedata.php" method='POST'>
-            <div>
+            <!-- <div>
                 <label for=''>type_id</label>
                 <input type='radio' name='type_id' value='01'>01
                 <input type='radio' name='type_id' value='02'>02
                 <input type='radio' name='type_id' value='03'>03
                 <input type='radio' name='type_id' value='04'>04
-            </div>
+            </div> -->
             <div>
                 <label for=''>type_name</label>
-                <input type='radio' name='type_name' value='01'>Standard
-                <input type='radio' name='type_name' value='02'>Superior
-                <input type='radio' name='type_name' value='03'>Deluxe
-                <input type='radio' name='type_name' value='04'>Suite
+                <input type='radio' name='type_id' value='01'>Standard
+                <input type='radio' name='type_id' value='02'>Superior
+                <input type='radio' name='type_id' value='03'>Deluxe
+                <input type='radio' name='type_id' value='04'>Suite
             </div>
             <!-- <div>
                 <label for=''>room_name</label>

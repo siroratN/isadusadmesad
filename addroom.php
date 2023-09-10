@@ -20,10 +20,10 @@
                 <label for=''>room_number</label>
                 <input type='text' name='room_number' id=''>
             </div>
-            <!-- <div>
-                <label for=''>room_name</label>
-                <input type='text' name='room_name' id=''>
-            </div> -->
+            <div>
+                <label for=''>floor</label>
+                <input type='text' name='floor' id=''>
+            </div>
             <div>
                 <label for=''>max_child</label>
                 <input type='text' name='max_child' id=''>

@@ -1,6 +1,6 @@
 <?php
     require('dbconnect.php');
-    $query = "select * from room";
+    $query = "select * from rooms";
     $result = mysqli_query($con,$query);
 ?>
 <!DOCTYPE html>
@@ -12,6 +12,8 @@
     <title>Document</title>
 </head>
 <body>
+
+
     <div class="container">
         <div class="row mt-5">
             <div class="col">
@@ -24,11 +26,13 @@
                 <a href="addroom.php" class="btn btn-success mb-4">ADD ROOM</a>
                     <table class="table table-bordered text-center">
                         <tr class="bg-dark text-white">
-                            <td>ID</td>
-                            <td>Type</td>
-                            <td>Name</td>
-                            <td>Number</td>
-                            <td>Amount(MAX)</td>
+                            <td>Room Number</td>
+                            <td>floor</td>
+                            <!-- <td>Building Name</td> -->
+                            <td>Max Child</td>
+                            <td>Max Adult</td>
+                            <td>Status</td>
+                            <td>Detail</td>
                             <td>Edit</td>
                             <td>Delete</td>
                         </tr>
@@ -40,13 +44,15 @@
                             ?>   
                             <tr> 
                                 
-                                <td><?php echo $row['room_id']?></td>
-                                <td><?php echo $row['room_type']?></td>
-                                <td><?php echo $row['room_name']?></td>
                                 <td><?php echo $row['room_number']?></td>
-                                <td><?php echo $row['amount']?></td>
+                                <td><?php echo $row['floor']?></td>
+                                <!-- <td><?php echo $row['building_name']?></td> -->
+                                <td><?php echo $row['max_child']?></td>
+                                <td><?php echo $row['max_adult']?></td>
+                                <td><?php echo $row['status_room']?></td>
+                                <td><a href="detailroom.php?id=<?=$row["room_number"]?>" class="btn btn-info">Detail</a></td>
                                 <td><a href="" class="btn btn-warning">Edit </a></td>
-                                <td><a href="delete_room.php?id=<?=$row["room_id"]?>" class="btn btn-danger">Delete</a></td>
+                                <td><a href="delete_room.php?id=<?=$row["room_number"]?>" class="btn btn-danger">Delete</a></td>
                             </tr>
                             <?php
                                 }

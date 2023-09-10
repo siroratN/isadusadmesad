@@ -1,10 +1,23 @@
 <?php
 require('dbconnect.php');
 
+// $type_id=$_POST['type_id'];
 $type_id=$_POST['type_id'];
-$type_name=$_POST['type_name'];
 $price=$_POST['price'];
 $total_rooms=$_POST['total_rooms'];
+
+if ($type_id == '01') {
+    $type_name = 'Standard';
+}
+elseif ($type_id == '02') {
+    $type_name = 'Superior';
+}
+elseif ($type_id == '03') {
+    $type_name = 'Deluxe';
+}
+elseif ($type_id == '04') {
+    $type_name = 'Suite';
+}
 
 $sql = "INSERT INTO types(type_name,type_id,price,total_rooms)
         VALUES('$type_name','$type_id','$price','$total_rooms')";
