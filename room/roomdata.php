@@ -15,7 +15,7 @@ $sql = "INSERT INTO rooms(room_number,floor,type_id,building_id,max_child,max_ad
 $result=mysqli_query($con,$sql);
 if ($result) {
     echo "<script>alert('เพิ่มข้อมูลเรียบร้อย');</script>";
-    echo "<script>window.location='room.php';</script>";
+    echo "<script>window.location='test.php';</script>";
 }
 else {
     echo("Error description: " . mysqli_error($con));

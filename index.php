@@ -7,6 +7,6 @@
 </head>
 <body>
     <a href = 'customer.php'>USERS</a>
-    <a href = 'admin.php'>ADMIN</a>
+    <a href = 'room/roomhome.php'>ADMIN</a>
 </body>
 </html>
