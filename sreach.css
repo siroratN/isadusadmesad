@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.navber{
+background-color: #1C6280;
+/* background-color: #0b2c28; */
+width: 100%;
+margin: auto;
+padding: 10px 0;
+display: flex;
+align-items:  center;
+justify-content: space-between;
+}
+
+.logo{
+width: 60px;
+cursor: pointer;
+margin-left: 30px;
+}
+
+.navber ul li{
+margin-top: 10px;
+list-style: none;
+display: inline-block;
+margin: 0 20px;
+position: relative;
+}
+
+.navber ul li a{
+text-decoration: none;
+color: #fff;
+text-transform: uppercase;
+margin-top: 20px;
+}
+
+.navber ul li::after{
+content: '';
+height: 3px;
+width: 0;
+background: #009688;
+position: absolute;
+left: 0;
+bottom: -5px;
+transition: 0.5s;
+}
+
+.navber ul li:hover::after{
+width: 100%;
+}
+
+  
+body{
+      background-image: url("background.png");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+      background-color: rgb(249, 132, 132);
+      gap: 30px;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin-right: 100px;
+    transform: translateY(1.375rem);
+}
+
+.bar{
+    align-self: center;
+    margin-left: 70px;
+}
+
+.search-bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon{
+    width: 100px;
+}
+
+.form-control{
+    width: 60%;
+    height: 25px;
+    margin: 0 auto; 
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#sreach-btn{
+    margin-top: 45px;
+    color: rgb(13, 1, 1);
+    background-color: rgb(45, 199, 241);
+}
+
+/* ห้อง */
+.room{
+    width: 1450px;
+    height: 424px;
+    /* background-color:  rgba(66, 133, 244, 0.30); */
+    background-color: #b0cbf7;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+
+}
+
+.room-img{
+    width: 690px;
+    height: 344px;
+}
+
+.room-des{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+
+.icon-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1px;
+}
+
+.icon-group div{
+    display: flex;
+}
+
+.icon{
+    font-size: 2em;
+}
+
+#see-detail{
+    align-self: self-end;
+    border-radius: 15px;
+    margin: 10px;
+}

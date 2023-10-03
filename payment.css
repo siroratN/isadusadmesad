@@ -1,0 +1,430 @@
+.PaymentQr {
+    width: 1440px;
+    height: 1037px;
+    position: relative;
+    background: white
+}
+
+.RectPage {
+    width: 1440px;
+    height: 71px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #1C6280
+}
+
+.RectMenu {
+    width: 1402px;
+    height: 58px;
+    left: 22px;
+    top: 13px;
+    position: absolute
+}
+
+.Doglogo {
+    width: 63px;
+    height: 58px;
+    left: -5px;
+    top: -5px;
+    position: absolute
+}
+
+.Home {
+    width: 86px;
+    height: 22px;
+    left: 1028px;
+    top: 10px;
+    position: absolute;
+    color: #FFC700;
+    font-size: 20px;
+    font-family: Lato;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.Booking {
+    width: 98px;
+    height: 22px;
+    left: 1151px;
+    top: 10px;
+    position: absolute;
+    color: #FFC700;
+    font-size: 20px;
+    font-family: Lato;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.Exit {
+    width: 91px;
+    height: 23px;
+    left: 1311px;
+    top: 10px;
+    position: absolute;
+    color: #FFC700;
+    font-size: 20px;
+    font-family: Lato;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.Hotel {
+    width: 87px;
+    height: 20px;
+    left: 68px;
+    top: 12px;
+    position: absolute;
+    color: #FD9B10;
+    font-size: 24px;
+    font-family: Quicksand;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+.RectBig {
+    width: 950px;
+    height: 975px;
+    left: 0px;
+    top: 71px;
+    position: absolute;
+    background: #EFFDF5
+}
+
+.RectSmall {
+    width: 490px;
+    height: 966px;
+    left: 950px;
+    top: 71px;
+    position: absolute;
+    background: #F5FFE5
+}
+
+.RectQr {
+    width: 379px;
+    height: 461px;
+    left: 1006px;
+    top: 230px;
+    position: absolute;
+    background: #90B0B2;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 20px
+}
+
+.RectContact {
+    width: 436px;
+    height: 461px;
+    left: 244px;
+    top: 230px;
+    position: absolute;
+    background: rgba(184.18, 188.06, 139.48, 0.33);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 20px
+}
+
+.Payment {
+    left: 341px;
+    top: 125px;
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    font-family: Crimson Text;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+.QrColumn {
+    left: 1121px;
+    top: 125px;
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    font-family: Crimson Text;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+.HotelGangnamLunaPoon {
+    left: 1040px;
+    top: 615px;
+    position: absolute;
+    color: #0B0B0A;
+    font-size: 20px;
+    font-family: Crimson Text;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+.RectNext {
+    width: 86px;
+    height: 43px;
+    left: 1163px;
+    top: 934px;
+    position: absolute;
+    background: #FFC700;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border: 1px rgba(0, 0, 0, 0.20) solid
+}
+
+.Next {
+    left: 1185px;
+    top: 941px;
+    position: absolute;
+    color: #0D0D0C;
+    font-size: 25px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.RectPaymentmethod {
+    width: 569px;
+    height: 160px;
+    left: 190px;
+    top: 796px;
+    position: absolute
+}
+
+.RectWhite {
+    width: 569px;
+    height: 160px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    border-radius: 4px;
+    border: 1px #171414 solid
+}
+
+.PayWithPromptpayQrCode {
+    left: 74px;
+    top: 103px;
+    position: absolute;
+    text-align: center;
+    color: rgba(88, 88, 88, 0.80);
+    font-size: 13px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.50px;
+    word-wrap: break-word
+}
+
+.ImagePromptpay {
+    width: 77px;
+    height: 35px;
+    left: 427px;
+    top: 68px;
+    position: absolute
+}
+
+.QrMethod {
+    left: 65px;
+    top: 72px;
+    position: absolute;
+    text-align: center;
+    color: #585858;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.50px;
+    word-wrap: break-word
+}
+
+.PaymentMethods {
+    width: 222.81px;
+    height: 23.57px;
+    left: 33px;
+    top: 18px;
+    position: absolute;
+    color: black;
+    font-size: 28px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.RectChose {
+    width: 339px;
+    height: 95px;
+    left: 1024px;
+    top: 730px;
+    position: absolute;
+    background: white;
+    border-radius: 4px;
+    border: 1px #171414 solid
+}
+
+.RectChoose {
+    width: 99px;
+    height: 28px;
+    left: 1056px;
+    top: 773px;
+    position: absolute;
+    background: #110D01;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border: 1px rgba(0, 0, 0, 0.20) solid
+}
+
+.ChooseFile {
+    width: 92px;
+    left: 1063px;
+    top: 778px;
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.FirstName {
+    width: 222.81px;
+    height: 23.57px;
+    left: 292px;
+    top: 250px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.LastName {
+    width: 222.81px;
+    height: 23.57px;
+    left: 292px;
+    top: 350px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.Email {
+    width: 222.81px;
+    height: 23.57px;
+    left: 292px;
+    top: 461px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.PhoneNumber {
+    width: 222.81px;
+    height: 23.57px;
+    left: 293px;
+    top: 576px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.ChooseAProfilePicture {
+    width: 222.81px;
+    height: 23.57px;
+    left: 1044px;
+    top: 741px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.NoFileChosen {
+    width: 126px;
+    height: 24px;
+    left: 1166px;
+    top: 777px;
+    position: absolute;
+    color: #616060;
+    font-size: 15px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.BoxFirstname {
+    width: 344px;
+    height: 25px;
+    left: 292px;
+    top: 296px;
+    position: absolute;
+    background: #F5F5F5;
+    border-radius: 4px;
+    border: 1px #E3E3E3 solid
+}
+
+.BoxLastname {
+    width: 344px;
+    height: 25px;
+    left: 292px;
+    top: 407px;
+    position: absolute;
+    background: #F5F5F5;
+    border-radius: 4px;
+    border: 1px #E3E3E3 solid
+}
+
+.BoxEmail {
+    width: 344px;
+    height: 25px;
+    left: 292px;
+    top: 508px;
+    position: absolute;
+    background: #F5F5F5;
+    border-radius: 4px;
+    border: 1px #E3E3E3 solid
+}
+
+.BoxPhonenumber {
+    width: 344px;
+    height: 25px;
+    left: 292px;
+    top: 623px;
+    position: absolute;
+    background: #F5F5F5;
+    border-radius: 4px;
+    border: 1px #E3E3E3 solid
+}
+
+.ImageQrcode {
+    width: 269px;
+    height: 229px;
+    left: 1070px;
+    top: 320px;
+    position: absolute
+}
+
+.Image_Promptpay {
+    width: 269px;
+    height: 229px;
+    left: 1059px;
+    top: 312px;
+    position: absolute
+}
+  
+  input,
+  label {
+    margin: 0.4rem 0;
+    width: 339px;
+    height: 95px;
+    left: 1044px;
+    top: 770px;
+    position: absolute;
+  }
