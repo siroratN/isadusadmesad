@@ -1,0 +1,236 @@
+body {
+    background-image: url("delu.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    gap: 30px;
+}
+
+.all {
+    width: 539px;
+    height: 1206px;
+    left: 420px;
+    top: 120px;
+    position: relative
+}
+
+.butcon {
+    width: 451px;
+    height: 64.80px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #33FF00;
+    box-shadow: 0px 4px 19px rgba(119, 147, 65, 0.30);
+    border-radius: 10px
+}
+
+.confirmbut {
+    width: 451px;
+    height: 64.80px;
+    left: 44px;
+    top: 840px;
+    position: absolute
+}
+
+.butcan {
+    width: 451px;
+    height: 64.80px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #FF000F;
+    box-shadow: 0px 4px 19px rgba(119, 147, 65, 0.30);
+    border-radius: 10px;
+}
+
+.canbut {
+    width: 451px;
+    height: 64.80px;
+    left: 44px;
+    top: 932px;
+    position: absolute;
+}
+
+.inputfloor {
+    width: 451px;
+    height: 68.40px;
+    left: 0px;
+    top: 37.20px;
+    position: absolute;
+    background: white;
+    border-radius: 9px;
+    border: 1px #ADADAD solid;
+}
+
+.textfloor {
+    width: 48px;
+    height: 29px;
+    left: 6px;
+    top: 0px;
+    position: absolute;
+    color: black;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.floor {
+    width: 451px;
+    height: 105.60px;
+    left: 44px;
+    top: 330px;
+    position: absolute;
+}
+
+.textnum {
+    color: black;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.number {
+    width: 451px;
+    height: 110.40px;
+    left: 44px;
+    top: 86px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20.40px;
+    display: inline-flex;
+}
+
+.inputnum {
+    width: 451px;
+    height: 68.40px;
+    background: white;
+    border-radius: 9px;
+    border: 1px #ADADAD solid;
+}
+
+.amount {
+    width: 451px;
+    height: 110.40px;
+    left: 44px;
+    top: 447px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20.40px;
+    display: inline-flex;
+}
+
+.textamount {
+    color: black;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.inputamount {
+    width: 451px;
+    height: 68.40px;
+    background: white;
+    border-radius: 9px;
+    border: 1px #ADADAD solid;
+}
+
+.building {
+    width: 451px;
+    height: 110.40px;
+    left: 44px;
+    top: 208px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20.40px;
+    display: inline-flex;
+}
+
+.textbuil {
+    color: black;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.inputbuil {
+    width: 451px;
+    height: 68.40px;
+    background: white;
+    border-radius: 9px;
+    border: 1px #4285F4 solid;
+}
+
+.price {
+    width: 451px;
+    height: 110.40px;
+    left: 44px;
+    top: 703px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20.40px;
+    display: inline-flex;
+}
+
+.textprice {
+    color: black;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.inputprice {
+    width: 451px;
+    height: 68.40px;
+    background: white;
+    border-radius: 9px;
+    border: 1px #ADADAD solid;
+}
+
+.detail {
+    width: 451px;
+    height: 210.40px;
+    left: 44px;
+    top: 533px;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20.40px;
+    display: inline-flex;
+}
+
+.textdetail {
+    color: black;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.inputdetail {
+    width: 451px;
+    height: 68.40px;
+    background: white;
+    border-radius: 9px;
+    border: 1px #ADADAD solid;
+}
+

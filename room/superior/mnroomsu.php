@@ -4,7 +4,11 @@ $query = "select *
               from rooms
               INNER JOIN types 
               ON rooms.type_id=types.type_id
-              WHERE rooms.type_id = '02'";
+              INNER JOIN status_booking  
+              ON rooms.status=status_booking.status
+              INNER JOIN building
+              ON rooms.building_id=building.building_id
+              WHERE rooms.type_id = '2'";
 $result = mysqli_query($con, $query);
 ?>
 <!DOCTYPE html>

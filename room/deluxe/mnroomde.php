@@ -1,12 +1,69 @@
 <?php
-$con = mysqli_connect("localhost", "root", "", "Hotel");
+require('C:\xamppp\htdocs\isadusadmesad\dbconnect.php');
 $query = "select *
               from rooms
               INNER JOIN types 
               ON rooms.type_id=types.type_id
-              WHERE rooms.type_id = '03'";
+              INNER JOIN status_booking  
+              ON rooms.status=status_booking.status
+              INNER JOIN building
+              ON rooms.building_id=building.building_id
+              WHERE rooms.type_id = '3'";
 $result = mysqli_query($con, $query);
 ?>
+
+<div class="row mt-5">
+            <div class="col">
+                <from action="" method="GET">
+                    <div class="input-group mb-3">
+                        <input type="text" name="search" value="" class="form-control" placeholder="Search data">
+                        <button type="submit" class="btn btn-primary"><i class="bi bi-search"></i></button>
+                    </div>
+                </from>
+                <div class="card-body">
+                    <table class="table table-hover text-center">
+                    <thead>
+                    <tr class=" text-center">
+                            <td>Room Number</td>
+                            <td>floor</td>
+                            <td>Building Name</td>
+                            <td>Max Guest</td>
+                            <td>Price</td>
+                            <td>Status</td>
+                            <td>Detail</td>
+                            <td>Delete</td>
+                        </tr>
+                        </thead>
+                        <?php
+                        while ($row = $result->fetch_assoc()) {
+
+                        ?>
+                        
+                            <tr>
+
+                                <td><?php echo $row['room_num'] ?></td>
+                                <td><?php echo $row['floor'] ?></td>
+                                <td><?php echo $row['building_name'] ?></td>
+                                <td><?php echo $row['max_guest'] ?></td>
+                                <td><?php echo $row['price'] ?></td>
+                                <td><?php echo $row['status_name'] ?></td>
+                                <td><a href="detailroom.php?id=<?= $row["room_num"] ?>" class="btn btn-outline-info">
+                                        <i class="bi bi-info-circle"></i></a></td>
+                                <td><a href="delete.php?id=<?= $row["room_num"] ?>" class="btn btn-outline-danger">
+                                        <i class="bi bi-trash"></i></a></td>
+                            </tr>
+                        <?php
+                        }
+                        mysqli_close($con);
+                        ?>
+
+                    </table>
+                    <a href="index.php" class="btn btn-outline-success">
+                        <i class="bi bi-house"></i>
+                    </a>
+
+                </div>
+            </div>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,56 +87,7 @@ $result = mysqli_query($con, $query);
     <img class="logo" style="width: 40px; height: 38px; left: 24px; top: 20px; position: absolute" src="2.png" />
     <div class="container" style="width: 2000px; height: 44.05px; left: 180px; top: 400px; position: absolute;">
 
-        <div class="row mt-5">
-            <div class="col">
-                <from action="" method="GET">
-                    <div class="input-group mb-3">
-                        <input type="text" name="search" value="" class="form-control" placeholder="Search data">
-                        <button type="submit" class="btn btn-primary"><i class="bi bi-search"></i></button>
-                    </div>
-                </from>
-                <div class="card-body">
-                    <table class="table table-bordered text-center">
-                        <tr class="bg-dark table-warning text-center">
-                            <td>Room Number</td>
-                            <td>floor</td>
-                            <!-- <td>Type</td> -->
-                            <td>Max Child</td>
-                            <td>Max Adult</td>
-                            <td>Status</td>
-                            <td>Detail</td>
-                            <td>Delete</td>
-                        </tr>
-
-                        <?php
-                        while ($row = $result->fetch_assoc()) {
-
-                        ?>
-                            <tr>
-
-                                <td><?php echo $row['room_number'] ?></td>
-                                <td><?php echo $row['floor'] ?></td>
-                                <!-- <td><?php echo $row['type_name'] ?></td> -->
-                                <td><?php echo $row['max_child'] ?></td>
-                                <td><?php echo $row['max_adult'] ?></td>
-                                <td><?php echo $row['status_room'] ?></td>
-                                <td><a href="detailroom.php?id=<?= $row["room_number"] ?>" class="btn btn-outline-info">
-                                        <i class="bi bi-info-circle"></i></a></td>
-                                <td><a href="delete_room.php?id=<?= $row["room_number"] ?>" class="btn btn-outline-danger">
-                                        <i class="bi bi-trash"></i></a></td>
-                            </tr>
-                        <?php
-                        }
-                        mysqli_close($con);
-                        ?>
-
-                    </table>
-                    <a href="index.php" class="btn btn-outline-success">
-                        <i class="bi bi-house"></i>
-                    </a>
-
-                </div>
-            </div>
+        
         </div>
     </div>
 </body>

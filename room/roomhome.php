@@ -12,10 +12,8 @@
 </head>
 
 <body>
-    <div class="Desktop10" style="width: 1440px; height: 1024px; position: relative; background: black">
+    <div class="Desktop10" style="width: 1440px; height: 1024px; position: relative;">
         <div class="Bar" style="width: 1390px; height: 50px; left: 25px; top: 20px; position: absolute">
-            <div class="Profile" style="width: 117px; height: 21px; left: 1273px; top: 14px; position: absolute; color: #FFC700; font-size: 20px; font-family: Lato; font-weight: 600; word-wrap: break-word">PROFILE</div>
-            <div class="Hotel" style="width: 147px; height: 20px; left: 61px; top: 13px; position: absolute; color: #FD9B10; font-size: 20px; font-family: Quicksand; font-weight: 700; word-wrap: break-word">HOTEL</div>
             <img class="OpenmojiDogFace" style="width: 61px; height: 50px; left: 0px; top: 0px;" src="imagee/dog.png" />
         </div>
         <div class="Standard" style="width: 616px; height: 344px; left: 47px; top: 170px; position: absolute">
@@ -29,7 +27,7 @@
                     </a>
                 </div>
                 <div class="Addroom" style="width: 98px; height: 34px; padding-top: 3px; padding-bottom: 4px; padding-left: 12px; padding-right: 12px; left: 121px; top: 0px; position: absolute; border-radius: 15px; justify-content: center; align-items: center; display: inline-flex">
-                    <a href="addroom.php" class="btn btn-light">
+                    <a href="standard/add.php" class="btn btn-light">
                         <i class="bi bi-plus"></i>
                     </a>
                 </div>
@@ -46,7 +44,7 @@
                     </a>
                 </div>
                 <div class="Addroom" style="width: 98px; height: 34px; padding-top: 3px; padding-bottom: 4px; padding-left: 12px; padding-right: 12px; left: 121px; top: 0px; position: absolute; border-radius: 15px; justify-content: center; align-items: center; display: inline-flex">
-                    <a href="addroom.php" class="btn btn-light">
+                    <a href="suite/add.php" class="btn btn-light">
                         <i class="bi bi-plus"></i>
                     </a>
                 </div>
@@ -62,7 +60,7 @@
                     </a>
                 </div>
                 <div class="Addroom" style="width: 98px; height: 34px; padding-top: 3px; padding-bottom: 4px; padding-left: 12px; padding-right: 12px; left: 121px; top: 0px; position: absolute; border-radius: 15px; justify-content: center; align-items: center; display: inline-flex">
-                    <a href="addroom.php" class="btn btn-warning">
+                    <a href="../room/superior/add.php" class="btn btn-warning">
                         <i class="bi bi-plus"></i>
                     </a>
                 </div>
@@ -78,7 +76,7 @@
                     </a>
                 </div>
                 <div class="Addroom" style="width: 98px; height: 34px; padding-top: 3px; padding-bottom: 4px; padding-left: 12px; padding-right: 12px; left: 121px; top: 0px; position: absolute; border-radius: 15px; justify-content: center; align-items: center; display: inline-flex">
-                    <a href="addroom.php" class="btn btn-warning">
+                    <a href="deluxe/addroomde.php" class="btn btn-warning">
                         <i class="bi bi-plus"></i>
                     </a>
                 </div>
@@ -88,4 +86,5 @@
         <img class="DeluxeRoomKing12000px1" style="width: 292px; height: 288px; left: 76px; top: 596px; position: absolute; border-radius: 30px" src="imagee/de.png" />
     </div>
 </body>
+
 </html>
