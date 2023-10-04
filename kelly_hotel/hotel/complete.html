@@ -1,0 +1,69 @@
+<?php include_once('index1.php');?>
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="complete.css">
+</head>
+<body>
+<?php
+        $sql = "SELECT * FROM customer";
+        $result = mysqli_query($connection, $sql);
+        $rows = mysqli_fetch_assoc($result);
+  ?>
+  <div class="Complete">
+    <div class="navber">
+      <div style="display: flex; flex-direction: row; gap: 10px;">
+          <img src="img_dog.png" alt="" class="logo">
+          <p class = "name-hotal" style="margin-top:15px; text-decoration: none; color: #fff; text-transform: uppercase;">Hotel gangnam luna poon</p>
+      </div>
+      <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">BOOKING</a></li>
+          <li><a href="#">EXIT</a></li>
+      </ul>
+  </div>
+    <img class="ImageView" src="image_view.png" />
+  
+    <div class="Rect_booking2"></div>
+    <div class="Rect_booking1"></div>
+    <div class="BookingConfirmation">Booking Confirmation</div>
+    <div class="MrMatelRattanapachai">Mr.Matel Rattanapachai</div>
+    <div class="HotelGangnamLunaPoon">Hotel Gangnam Luna Poon</div>
+    <div class="Line1"></div>
+    <div class="Line2"></div>
+    <div class="BookingId">Booking ID :</div>
+    <div class="ID">#2262</div>
+    <div class="TypeRoom">Type Room :</div>
+    <div class="box_typeroom">Superior</div>
+    <div class="box_phone">0616515281</div>
+    <div class="box_status">Comfirmed</div>
+    <div class="box_price">4500 B</div>
+    <div class="box_email">65070214@kmitl.ac.th</div>
+    <div class="box_checkin">Friday, October 1, 2023<br/>(From 15:00)</div>
+    <div class="box_checkout">Sunday, October 3, 2023<br/>(Unit 12:00)</div>
+    <div class="box_guest">5</div>
+    <div class="Guest">Guest :</div>
+    <div class="CheckIn">Check - in :</div>
+    <div class="Email">Email :</div>
+    <div class="Status">Status : </div>
+    <div class="TotalPrice">Total Price : </div>
+    <div class="PhoneNumber">Phone Number : </div>
+    <div class="CheckOut">Check - out :</div>
+    <div class="Warning">* Please take a photo of your hotel reservation to confirm on the check-in day.<br/></div>
+    <div class="Recthome"></div>
+    <div class="BnHome">HOME</div>
+    <img class="LogoBuild" src="logo_build.png" />
+    <img class="LogoBed" src="logo_bed.png" />
+    <img class="LogoPerson" src="logo_person.png" />
+    <img class="LogoCheckin" src="logo_checkin.png" />
+    <img class="LogoCheckout" src="logo_checkout.png" />
+    <img class="LogoEmail" src="logo_email.png" />
+    <img class="LogoPhone" src="logo_phone.png" />
+    <img class="LogoStatus" src="logo_status.png" />
+  </div>
+</body>
+</html>

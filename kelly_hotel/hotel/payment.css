@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.PaymentQr {
+    width: 100%;
+    height: 1037px;
+    position: relative;
+    background: white
+}
+
+.RectSmall {
+    width: 597px;
+    height: 971px;
+    left: 1260px;
+    top: 66px;
+    position: absolute;
+    background: #F5FFE5
+}
+
+.RectQr {
+    width: 379px;
+    height: 461px;
+    left: 1375px;
+    top: 230px;
+    position: absolute;
+    background: #90B0B2;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 20px
+}
+
+.RectContact {
+    width: 436px;
+    height: 461px;
+    left: 390px;
+    top: 230px;
+    position: absolute;
+    background: rgba(198.69, 198.69, 198.69, 0.80);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 20px
+}
+
+.Payment {
+    left: 500px;
+    top: 125px;
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    font-family: Crimson Text;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+.QrColumn {
+    left: 1470px;
+    top: 125px;
+    position: absolute;
+    color: black;
+    font-size: 40px;
+    font-family: Crimson Text;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+.HotelGangnamLunaPoon {
+    left: 1425px;
+    top: 615px;
+    position: absolute;
+    color: #0B0B0A;
+    font-size: 18px;
+    font-family: Crimson Text;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+.RectNext {
+    width: 121px;
+    height: 43px;
+    left: 1500px;
+    top: 934px;
+    position: absolute;
+    background: #184756;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border: 1px rgba(0, 0, 0, 0.20) solid
+}
+
+.Next {
+    left: 1535px;
+    top: 945px;
+    position: absolute;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.RectPaymentmethod {
+    width: 569px;
+    height: 160px;
+    left: 190px;
+    top: 796px;
+    position: absolute
+}
+
+.RectWhite {
+    width: 500px;
+    height: 140px;
+    left: 180px;
+    top: 0px;
+    position: absolute;
+    background: white;
+    border-radius: 4px;
+    border: 1px #171414 solid
+}
+
+.PayWithPromptpayQrCode {
+    left: 220px;
+    top: 103px;
+    position: absolute;
+    text-align: center;
+    color: rgba(88, 88, 88, 0.80);
+    font-size: 13px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.50px;
+    word-wrap: break-word
+}
+
+.ImagePromptpay {
+    width: 77px;
+    height: 35px;
+    left: 510px;
+    top: 60px;
+    position: absolute
+}
+
+.QrMethod {
+    left: 220px;
+    top: 72px;
+    position: absolute;
+    text-align: center;
+    color: #585858;
+    font-size: 18px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.50px;
+    word-wrap: break-word
+}
+
+.PaymentMethods {
+    width: 222.81px;
+    height: 23.57px;
+    left: 200px;
+    top: 18px;
+    position: absolute;
+    color: black;
+    font-size: 28px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.RectChose {
+    width: 339px;
+    height: 95px;
+    left: 1385px;
+    top: 730px;
+    position: absolute;
+    background: white;
+    border-radius: 4px;
+    border: 1px #171414 solid
+}
+
+.FirstName {
+    width: 222.81px;
+    height: 23.57px;
+    left: 440px;
+    top: 250px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.LastName {
+    width: 222.81px;
+    height: 23.57px;
+    left: 440px;
+    top: 350px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.Email {
+    width: 222.81px;
+    height: 23.57px;
+    left: 440px;
+    top: 461px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.PhoneNumber {
+    width: 222.81px;
+    height: 23.57px;
+    left: 440px;
+    top: 576px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.ChooseAProfilePicture {
+    width: 222.81px;
+    height: 23.57px;
+    left: 1400px;
+    top: 741px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.BoxFirstname {
+    width: 222.81px;
+    height: 23.57px;
+    left: 460px;
+    top: 295px;
+    position: absolute;
+    color: #414040;
+    font-size: 19px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.BoxLastname {
+    width: 222.81px;
+    height: 23.57px;
+    left: 460px;
+    top: 400px;
+    position: absolute;
+    color: #414040;
+    font-size: 19px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.BoxEmail {
+    width: 222.81px;
+    height: 23.57px;
+    left: 460px;
+    top: 507px;
+    position: absolute;
+    color: #414040;
+    font-size: 19px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    text-decoration: underline;
+    word-wrap: break-word
+}
+
+.BoxPhonenumber {
+    width: 222.81px;
+    height: 23.57px;
+    left: 460px;
+    top: 621px;
+    position: absolute;
+    color: #414040;
+    font-size: 19px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.ImageQrcode {
+    width: 269px;
+    height: 229px;
+    left: 1430px;
+    top: 320px;
+    position: absolute
+}
+
+input,
+label {
+    margin: 0.4rem 0;
+    width: 339px;
+    height: 95px;
+    left: 1400px;
+    top: 770px;
+    position: absolute;
+}
+
+.ImageHotel {
+    width: 1260px;
+    height: 971px;
+    left: 0px;
+    top: 66px;
+    position: absolute
+}
+
+.Img_Dog {
+    width: 61px;
+    height: 47px;
+    left: 30px;
+    top: 11px;
+    position: absolute
+}
+
+.navber{
+background-color: #1C6280;
+/* background-color: #0b2c28; */
+width: 100%;
+margin: auto;
+padding: 10px 0;
+display: flex;
+align-items:  center;
+justify-content: space-between;
+}
+
+.logo{
+width: 60px;
+cursor: pointer;
+margin-left: 30px;
+}
+
+.navber ul li{
+margin-top: 10px;
+list-style: none;
+display: inline-block;
+margin: 0 20px;
+position: relative;
+}
+
+.navber ul li a{
+text-decoration: none;
+color: #fff;
+text-transform: uppercase;
+margin-top: 20px;
+}
+
+.navber ul li::after{
+content: '';
+height: 3px;
+width: 0;
+background: #009688;
+position: absolute;
+left: 0;
+bottom: -5px;
+transition: 0.5s;
+}
+
+.navber ul li:hover::after{
+width: 100%;
+}

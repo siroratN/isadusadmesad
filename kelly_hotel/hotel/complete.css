@@ -1,0 +1,528 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Complete {
+    width: 100%
+    height: 1037px;
+    position: relative;
+    background: #DDD7D7
+}
+
+.ImageView {
+    width: 99.98%;
+    height: 971px;
+    left: 0px;
+    top: 66.1px;
+    position: absolute
+}
+
+.Recthome {
+    width: 121px;
+    height: 43px;
+    left: 880px;
+    top: 977px;
+    position: absolute;
+    background: #184756;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border: 1px rgba(0, 0, 0, 0.20) solid
+}
+
+.BnHome {
+    left: 910px;
+    top: 987px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.Rect_booking1 {
+    width: 597px;
+    height: 54px;
+    left: 640px;
+    top: 123px;
+    position: absolute;
+    background: rgba(74.24, 228.44, 200.68, 0.80);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px
+}
+
+.Rect_booking2 {
+    width: 597px;
+    height: 765px;
+    left: 640px;
+    top: 177px;
+    position: absolute;
+    background: rgba(255, 253.94, 253.94, 0.80);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.BookingConfirmation {
+    width: 374px;
+    height: 20px;
+    left: 750px;
+    top: 140px;
+    position: absolute;
+    color: black;
+    font-size: 35px;
+    font-family: Crimson Text;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.17px;
+    word-wrap: break-word
+}
+
+.MrMatelRattanapachai {
+    width: 291px;
+    height: 20px;
+    left: 790px;
+    top: 219px;
+    position: absolute;
+    color: black;
+    font-size: 25px;
+    font-family: Crimson Text;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.12px;
+    word-wrap: break-word
+}
+
+.HotelGangnamLunaPoon {
+    width: 240px;
+    height: 20px;
+    left: 825px;
+    top: 274px;
+    position: absolute;
+    color: #8E9193;
+    font-size: 20px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.10px;
+    word-wrap: break-word
+}
+
+.Line1 {
+    width: 548px;
+    height: 0px;
+    left: 660px;
+    top: 321px;
+    position: absolute;
+    border: 2px #BDBDBD solid
+}
+
+.Line2 {
+    width: 548px;
+    height: 0px;
+    left: 660px;
+    top: 727px;
+    position: absolute;
+    border: 2px #BDBDBD solid
+}
+
+.BookingId {
+    width: 115px;
+    left: 670px;
+    top: 341px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Crimson Text;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.10px;
+    word-wrap: break-word
+}
+
+.ID {
+    width: 115px;
+    left: 800px;
+    top: 341px;
+    position: absolute;
+    color: #777474;
+    font-size: 20px;
+    font-family: Crimson Text;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.10px;
+    word-wrap: break-word
+}
+
+.TypeRoom {
+    width: 111px;
+    height: 29px;
+    left: 745px;
+    top: 405px;
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.07px;
+    word-wrap: break-word
+}
+
+.Guest {
+    width: 72px;
+    left: 1000px;
+    top: 405px;
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.07px;
+    word-wrap: break-word
+}
+
+.CheckIn {
+    width: 103px;
+    left: 745px;
+    top: 499px;
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.07px;
+    word-wrap: break-word
+}
+
+.Email {
+    width: 103px;
+    left: 745px;
+    top: 612px;
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.07px;
+    word-wrap: break-word
+}
+
+.Status {
+    width: 57px;
+    left: 705px;
+    top: 755px;
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.07px;
+    word-wrap: break-word
+}
+
+.TotalPrice {
+    width: 110px;
+    left: 670px;
+    top: 802px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Crimson Text;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.10px;
+    word-wrap: break-word
+}
+
+.PhoneNumber {
+    width: 130px;
+    left: 1000px;
+    top: 614px;
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.07px;
+    word-wrap: break-word
+}
+
+.CheckOut {
+    width: 117px;
+    left: 1000px;
+    top: 499px;
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.07px;
+    word-wrap: break-word
+}
+
+.Warning {
+    width: 505px;
+    height: 14px;
+    left: 700px;
+    top: 880px;
+    position: absolute;
+    color: #5d5b5b;
+    font-size: 18px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.10px;
+    word-wrap: break-word
+}
+.box_typeroom {
+    width: 111px;
+    height: 29px;
+    left: 755px;
+    top: 436px;
+    position: absolute;
+    color: #777474;
+    font-size: 12px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.06px;
+    word-wrap: break-word
+}
+
+.box_phone {
+    width: 111px;
+    height: 29px;
+    left: 1012px;
+    top: 658px;
+    position: absolute;
+    color: #777474;
+    font-size: 12px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.06px;
+    word-wrap: break-word
+}
+
+.box_status {
+    width: 111px;
+    height: 29px;
+    left: 770px;
+    top: 755px;
+    position: absolute;
+    color: #777474;
+    font-size: 12px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.06px;
+    word-wrap: break-word
+}
+
+.box_price {
+    width: 111px;
+    height: 29px;
+    left: 1090px;
+    top: 802px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Crimson Text;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.10px;
+    word-wrap: break-word
+}
+
+.box_email {
+    width: 120px;
+    height: 29px;
+    left: 755px;
+    top: 661px;
+    position: absolute;
+    color: #777474;
+    font-size: 12px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    text-decoration: underline;
+    line-height: 22px;
+    letter-spacing: 0.06px;
+    word-wrap: break-word
+}
+
+.box_checkin {
+    width: 135px;
+    height: 29px;
+    left: 755px;
+    top: 535px;
+    position: absolute;
+    color: #777474;
+    font-size: 12px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.06px;
+    word-wrap: break-word
+}
+
+.box_checkout {
+    width: 135px;
+    height: 29px;
+    left: 1012px;
+    top: 535px;
+    position: absolute;
+    color: #777474;
+    font-size: 12px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.06px;
+    word-wrap: break-word
+}
+
+.box_guest {
+    width: 111px;
+    height: 29px;
+    left: 1012px;
+    top: 439px;
+    position: absolute;
+    color: #777474;
+    font-size: 12px;
+    font-family: Crimson Text;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.06px;
+    word-wrap: break-word
+}
+
+
+
+.LogoBuild {
+    width: 20px;
+    height: 20px;
+    left: 800px;
+    top: 274px;
+    position: absolute
+}
+
+.LogoBed {
+    width: 24px;
+    height: 23px;
+    left: 705px;
+    top: 405px;
+    position: absolute
+}
+
+.LogoPerson {
+    width: 23px;
+    height: 17px;
+    left: 960px;
+    top: 405px;
+    position: absolute
+}
+
+.LogoCheckin {
+    width: 24px;
+    height: 24px;
+    left: 705px;
+    top: 495px;
+    position: absolute
+}
+
+.LogoCheckout {
+    width: 24px;
+    height: 24px;
+    left: 960px;
+    top: 495px;
+    position: absolute
+}
+
+.LogoEmail {
+    width: 24px;
+    height: 24px;
+    left: 705px;
+    top: 610px;
+    position: absolute
+}
+
+.LogoPhone {
+    width: 24px;
+    height: 24px;
+    left: 960px;
+    top: 611px;
+    position: absolute
+}
+
+.LogoStatus {
+    width: 24px;
+    height: 24px;
+    left: 670px;
+    top: 754px;
+    position: absolute
+}
+
+.Img_Dog {
+    width: 61px;
+    height: 47px;
+    left: 30px;
+    top: 11px;
+    position: absolute
+}
+
+.navber{
+    background-color: #1C6280;
+    /* background-color: #0b2c28; */
+    width: 100%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+    }
+    
+    .logo{
+    width: 60px;
+    cursor: pointer;
+    margin-left: 30px;
+    }
+    
+    .navber ul li{
+    margin-top: 10px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    }
+    
+    .navber ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 20px;
+    }
+    
+    .navber ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+    }
+    
+    .navber ul li:hover::after{
+    width: 100%;
+    }
+    

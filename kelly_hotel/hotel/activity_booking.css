@@ -1,0 +1,511 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Activity_Booking {
+    width: 100%;
+    height: 1024px;
+    position: relative;
+    background: #DDE4FF
+}
+
+.Scuba {
+    width: 337.32px;
+    height: 304px;
+    left: 245px;
+    top: 225px;
+    position: absolute
+}
+
+.Std_Scuba {
+    width: 337.32px;
+    height: 81px;
+    left: 0px;
+    top: 223px;
+    position: absolute
+}
+
+.Text_Scuba {
+    width: 337.32px;
+    height: 61px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    text-align: center;
+    color: #2D248C;
+    font-size: 38px;
+    font-family: Manrope;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word
+}
+
+.Allroom_Scuba {
+    width: 108px;
+    height: 34px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    left: 105px;
+    top: 47px;
+    position: absolute;
+    background: #1E9BA4;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex
+}
+
+.AllMember_Scuba {
+    width: 82px;
+    height: 26px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: Manrope;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word
+}
+
+.Img_Scuba {
+    width: 301px;
+    height: 201px;
+    left: 18.14px;
+    top: 0px;
+    position: absolute;
+    border-radius: 20px
+}
+
+.Whale {
+    width: 337.32px;
+    height: 304px;
+    left: 245px;
+    top: 601px;
+    position: absolute
+}
+
+.Allroom_Whale {
+    width: 108px;
+    height: 34px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    left: 105px;
+    top: 270px;
+    position: absolute;
+    background: #1E9BA4;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex
+}
+
+.AllMember_Whale {
+    width: 82px;
+    height: 26px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: Manrope;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word
+}
+
+.Text_Whale {
+    width: 337.32px;
+    height: 61px;
+    left: 0px;
+    top: 223px;
+    position: absolute;
+    text-align: center;
+    color: #2D248C;
+    font-size: 38px;
+    font-family: Manrope;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word
+}
+
+.Img_Whale {
+    width: 301px;
+    height: 201px;
+    left: 18.14px;
+    top: 0px;
+    position: absolute;
+    border-radius: 20px
+}
+
+.Horse {
+    width: 337.32px;
+    height: 304px;
+    left: 765px;
+    top: 601px;
+    position: absolute
+}
+
+.Allroom_Horse {
+    width: 108px;
+    height: 34px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    left: 105px;
+    top: 270px;
+    position: absolute;
+    background: #1E9BA4;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex
+}
+
+.AllMember_Horse {
+    width: 82px;
+    height: 26px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: Manrope;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word
+}
+
+.Text_Horse {
+    width: 337.32px;
+    height: 61px;
+    left: 0px;
+    top: 223px;
+    position: absolute;
+    text-align: center;
+    color: #2D248C;
+    font-size: 38px;
+    font-family: Manrope;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word
+}
+
+.Img_Horse {
+    width: 301px;
+    height: 201px;
+    left: 18.14px;
+    top: 0px;
+    position: absolute;
+    border-radius: 20px
+}
+
+.Board {
+    width: 337.32px;
+    height: 304px;
+    left: 1290px;
+    top: 601px;
+    position: absolute
+}
+
+.Allroom_Board {
+    width: 108px;
+    height: 34px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    left: 110px;
+    top: 270px;
+    position: absolute;
+    background: #1E9BA4;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex
+}
+
+.AllMember_Board {
+    width: 82px;
+    height: 26px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: Manrope;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word
+}
+
+.Text_Board {
+    width: 337.32px;
+    height: 61px;
+    left: 0px;
+    top: 223px;
+    position: absolute;
+    text-align: center;
+    color: #2D248C;
+    font-size: 38px;
+    font-family: Manrope;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word
+}
+
+.Img_Board {
+    width: 301px;
+    height: 201px;
+    left: 18.14px;
+    top: 0px;
+    position: absolute;
+    border-radius: 20px
+}
+
+.Parasail {
+    width: 337.32px;
+    height: 304px;
+    left: 1290px;
+    top: 225px;
+    position: absolute
+}
+
+.Allroom_Parasail {
+    width: 108px;
+    height: 34px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    left: 105px;
+    top: 269px;
+    position: absolute;
+    background: #1E9BA4;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex
+}
+
+.AllMember_Parasail {
+    width: 82px;
+    height: 26px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: Manrope;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word
+}
+
+.Text_Parasail {
+    width: 337.32px;
+    height: 61px;
+    left: 0px;
+    top: 223px;
+    position: absolute;
+    text-align: center;
+    color: #2D248C;
+    font-size: 38px;
+    font-family: Manrope;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word
+}
+
+.Img_Parasail {
+    width: 301px;
+    height: 201px;
+    left: 18.14px;
+    top: 0px;
+    position: absolute;
+    border-radius: 20px
+}
+
+.Kayak {
+    width: 337.32px;
+    height: 304px;
+    left: 765px;
+    top: 225px;
+    position: absolute
+}
+
+.Allroom_Kayak {
+    width: 108px;
+    height: 34px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    left: 104px;
+    top: 269px;
+    position: absolute;
+    background: #1E9BA4;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex
+}
+
+.AllMember_Kayak {
+    width: 82px;
+    height: 26px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: Manrope;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word
+}
+
+.Text_Kayak {
+    width: 337.32px;
+    height: 61px;
+    left: 0px;
+    top: 223px;
+    position: absolute;
+    text-align: center;
+    color: #2D248C;
+    font-size: 38px;
+    font-family: Manrope;
+    font-weight: 700;
+    line-height: 24px;
+    word-wrap: break-word
+}
+
+.Img_Kayak {
+    width: 301px;
+    height: 201px;
+    left: 18.14px;
+    top: 0px;
+    position: absolute;
+    border-radius: 20px
+}
+
+.ManagementActivityBooking {
+    width: 686px;
+    height: 80px;
+    left: 590px;
+    top: 109px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 45px;
+    font-family: Arimo Hebrew Subset;
+    font-weight: 400;
+    line-height: 29.97px;
+    word-wrap: break-word
+}
+
+.Group_Topbar {
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    position: absolute
+}
+
+.Rect_Topbar {
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #1C6280
+}
+
+.Topbar_detail {
+    width: 1336px;
+    height: 25px;
+    left: 104px;
+    top: 23px;
+    position: absolute
+}
+
+.Charity {
+    width: 92px;
+    height: 22px;
+    left: 950px;
+    top: 2px;
+    position: absolute;
+    color: #FFC700;
+    font-size: 16px;
+    font-family: Lato;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.Blog {
+    width: 83px;
+    height: 22px;
+    left: 1100px;
+    top: 2px;
+    position: absolute;
+    color: #FFC700;
+    font-size: 16px;
+    font-family: Lato;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.AboutUs {
+    width: 118px;
+    height: 22px;
+    left: 1225px;
+    top: 2px;
+    position: absolute;
+    color: #FFC700;
+    font-size: 16px;
+    font-family: Lato;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.CreateAccount {
+    width: 200px;
+    height: 23px;
+    left: 1380px;
+    top: 2px;
+    position: absolute;
+    color: #FFC700;
+    font-size: 16px;
+    font-family: Lato;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.SignIn {
+    width: 120px;
+    height: 23px;
+    left: 1600px;
+    top: 2px;
+    position: absolute;
+    color: #FFC700;
+    font-size: 16px;
+    font-family: Lato;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.Hotel {
+    width: 147px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    color: #FD9B10;
+    font-size: 20px;
+    font-family: Quicksand;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+.Img_Dog {
+    width: 61px;
+    height: 47px;
+    left: 30px;
+    top: 11px;
+    position: absolute
+}
