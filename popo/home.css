@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navber{
+  background-color: #1C6280;
+  /* background-color: #0b2c28; */
+  width: 100%;
+  margin: auto;
+  padding: 10px 0;
+  display: flex;
+  align-items:  center;
+  justify-content: space-between;
+}
+
+.logo{
+  width: 60px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.navber ul li{
+  margin-top: 10px;
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+
+.navber ul li a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.navber ul li::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: 0.5s;
+}
+
+.navber ul li:hover::after{
+  width: 100%;
+}
+
+
+#banner{
+  background: url(https://www.travelplusstyle.com/wp-content/uploads/2021/01/g-02-patina-maldives-1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-top: -20px;
+}
+
+
+
+body{
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    gap: 20px;
+}
+
+
+
+.sec1{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin-right: 100px;
+    transform: translateY(1.375rem);
+}
+
+.bar{
+    align-self: center;
+    margin-left: 70px;
+}
+
+.search-bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon{
+    width: 100px;
+}
+
+.form-control{
+    width: 60%;
+    height: 25px;
+    margin: 0 auto; 
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#sreach-btn{
+    margin-top: 45px;
+    color: rgb(13, 1, 1);
+    background-color: rgb(45, 199, 241);
+}
+
+.single-person 
+{
+    padding:15px; width:268px; box-shadow:1px 1px 15px #e8eed1; float:left; margin-right:20px; border:1px solid #546aff; border-radius:5px; border-radius: 25px;
+}
+.single-person h4 
+{
+    text-align:center; font-weight:bold; text-transform:uppercase; font-size:15px;
+}
+.single-person h5 
+{
+    text-align:center;
+}
+.single-person hr {margin:10px 0px 10px 0px;}
+.price {font-size:25px; font-weight:bold;}
+.full-price {margin-top:-6px;}
+.title {font-weight:bold;}
+.job-success {border-bottom:4px solid #1206fe; width:100%; border-top:none;}
+.view-profile {padding:10px 30px 10px 30px; background:#3d5caf; color:#fff; border-radius:3px;}
+.view-profile:hover {background:#124c56; color:#fff;}
+
+#img_room{
+    width: 450px;
+    height: 150px;
+}
+
+.rectangle1{
+    margin-top: 9px;
+    height: 500px;
+    width:98%;
+    background-color: #b0cbf7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.rectangle2{
+    height: 100px;
+    width: 100%;
+}
+
+.main-resort{
+    width: 922px;
+    height: 456px;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.des-main{
+    width: 320px;
+    height: 370px;
+}
+
+.act{
+    background: url('background.act.png');
+    background-size: cover; /* ปรับขนาดให้พอดีตามขนาดของ div */
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 619px;
+    margin-top: 63px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.act_detail{
+    margin: 60px;
+}
+
+#slider-section {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subcontainer {
+  width: 85%;
+  margin: auto;
+}
+
+.slider-wrapper{
+  position: relative;
+}
+
+.previous,.next {
+  padding: 2px;
+  width: 30px;
+  cursor: pointer;
+  border-radius: 50%;
+  outline: none;
+  transition: 0.7s ease-in-out;
+  border: 3px solid white;
+  background-color: #1a1a1a;
+  box-shadow: 0 0 5px #bbb;
+  position: absolute;
+  top: 50%;
+}
+
+.previous {
+  left: 2%;
+}
+
+.next {
+  right: 2%;
+}
+
+.previous:hover,
+.next:hover {
+  border: 3px solid gray;
+}
+
+#controls i {
+  color: white;
+  font-size: 1rem;
+}
+
+.tns-nav {
+  text-align: right;
+}
+
+.tns-nav button {
+  border: none;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: white;
+  margin-left: 15px;
+}
+
+.tns-nav .tns-nav-active {
+  background-color: gray;
+}
+
+/* DYNAMIC HTML */
+
+.slide{
+  width: auto;
+  height: fit-content;
+}
+
+.slide img {
+  width: 100%;
+  height: 275px;
+}
+
+@media(max-width:1600px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.des{
+    margin-top: 63px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.des-img{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+}
+.des-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.row-items{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  grid-gap: 2rem;
+  align-items: center;
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.container-box{
+  background:  var(--bg-color);
+  border: 1px solid #020f3f;
+  padding: 50px 10px;
+  border-radius: 4px;
+  transition: all 1s ease 0s;
+  cursor: pointer;
+}
+
+.container-img img{
+  height: 85px;
+  width: 85px;
+  padding: 15px;
+  background: var(--bg-color);
+  box-shadow: 5px 10px 30px rgb(85 85 85/ 20%);
+  border-radius: 4px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.container-box h4{
+  font-size: 24px;
+  font-weight: 600;
+  margin-left: 8px;
+}
+
+.container-box p{
+  font-size: 15px;
+  color: var(--second-color);
+
+}
+
+.container-box:hover{
+  box-shadow:  5px 30px 56.1276px rgb(55 55 55/12%);
+  border: 1px solid transparent;
+  transform:  translateY(-3px);
+}

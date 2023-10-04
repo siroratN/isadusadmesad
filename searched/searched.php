@@ -125,7 +125,7 @@ $resultt = mysqli_query($con, $queryy);
 
     ?>
         <div class="room">
-            <img src="./image/<?php echo $row['path_image'];?>"class="room-img"/>
+            <img src="../image/<?php echo $row['path_image'];?>"class="room-img"/>
             <div class="room-des">
                 <h4><?php echo $row['room_num'] ?></h4>
                 <?php
@@ -151,52 +151,6 @@ $resultt = mysqli_query($con, $queryy);
                 <div id="see-detail" class="btn btn-warning"><a href="../roommm/room.php">kuy</a></div>
             </div>
         </div>
-
-        <!-- <div class="room">
-            <img src="standard/room1.png" alt="" class="room-img">
-            <div class="room-des">
-                <div class="icon-group">
-                    <div>
-                        <ion-icon class="icon" name="bed-outline"></ion-icon>
-                        <p>2 beds</p>
-                    </div>
-                    <div>
-                        <ion-icon class="icon" name="accessibility-outline"></ion-icon>
-                        <p>2 guests</p>
-                    </div>
-                    <div>
-                        <ion-icon class="icon" name="square-outline"></ion-icon>
-                        <p>214m2</p>
-                    </div>
-                </div>
-                <p style="width: 500px;">Details : l residence for all entrepreneurs in the world and is surrounded by lush greenery, imbibed with the traditions of the Indian culture. Premium class accommodations, conference rooms, </p>
-                <button id="see-detail" type="button" class="btn btn-warning">See Detail >></button>
-            </div>
-        </div>
-
-        <div class="room">
-            <img src="standard/room1.png" alt="" class="room-img">
-            <div class="room-des">
-                <h4></h4>
-                <div class="icon-group">
-                    <div>
-                        <ion-icon class="icon" name="bed-outline"></ion-icon>
-                        <p>2 beds</p>
-                    </div>
-                    <div>
-                        <ion-icon class="icon" name="accessibility-outline"></ion-icon>
-                        <p>2 guests</p>
-                    </div>
-                    <div>
-                        <ion-icon class="icon" name="square-outline"></ion-icon>
-                        <p>214m2</p>
-                    </div>
-                </div>
-                <p style="width: 500px;">Details : l residence for all entrepreneurs in the world and is surrounded by lush greenery, imbibed with the traditions of the Indian culture. Premium class accommodations, conference rooms, </p>
-                <button id="see-detail" type="button" class="btn btn-warning">See Detail >></button>
-            </div>
-        </div> -->
-
     <?php
     }
     if(!isset($con->server_info)){

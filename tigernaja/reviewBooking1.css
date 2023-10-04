@@ -1,0 +1,287 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+body{
+    height: 1000px; position: relative; background: white;
+}
+.Reviewbookgroup{
+    width: 643px; height: 1164px; left: 797px; top: 70px; position: absolute
+}
+.Button{
+    width: 400px; height: 50px; padding-top: 12px; padding-bottom: 13.80px; padding-left: 29px; padding-right: 28px; left: 120px; top: 800px; position: absolute; background: #9BD609; border-radius: 5px; justify-content: center; align-items: center; display: inline-flex;
+    color: black; font-size: 25px; font-family: Montserrat; font-weight: 700; word-wrap: break-word;
+}
+/* .ProceedToPayment{
+    color: black; font-size: 28px; font-family: Montserrat; font-weight: 700; word-wrap: break-word;
+} */
+.Reviewbox{
+    width: 643px; height: 1183px; left: 0px; top: 0px; position: absolute; background: rgba(66, 133, 244, 0.30);
+}
+.Input{
+    width: 382.86px; height: 276.82px; left: 130px; top: 500px; position: absolute;
+}
+.Guestsgroup{
+    width: 501px; height: 21px; left: 0px; top: 160px; position: absolute;
+}
+.Guests{
+    width: 100px; height: 24.87px; left: -0px; top: 25.45px; position: absolute; color: rgba(0, 0, 0, 0.80); font-size: 23px; font-family: Abhaya Libre; font-weight: 400; line-height: 12px; word-wrap: break-word;
+}
+.Guestsinput{
+    width: 190px; height: 60px; padding-left: 24px; padding-right: 24px; padding-top: 15px; padding-bottom: 15px; left: 152px; top: 0px; position: absolute; background: white; border-radius: 20px;
+}
+.Checkoutgroup{
+    width: 501px; height: 21px; left: -0px; top: 80.18px; position: absolute;
+}
+.Boxicheckout{
+    width: 190px; height: 60px; padding-left: 24px; padding-right: 24px; padding-top: 15px; padding-bottom: 15px; left: 154px; top: 0px; position: absolute; background: white; border-radius: 20px;
+}
+.Checkingroup{
+    width: 380.86px; height: 62.67px; left: 2px; top: 0px; position: absolute;
+}
+.Boxcheckin{
+    width: 190px; height: 60px; padding-left: 24px; padding-right: 24px; padding-top: 15px; padding-bottom: 15px; left: 153px; top: 0px; position: absolute; background: white; border-radius: 20px;
+}
+.PersonalInfor{
+    width: 500px; height: 315.42px; left: 127px; top: 160px; position: absolute;
+}
+.Phonenumbergroup{
+    width: 501px; height: 21px; left: 2px; top: 268.67px; position: absolute;
+}
+.PhoneNumber{
+    width: 200px; height: 18.06px; left: -0px; top: 0px; position: absolute; color: rgba(0, 0, 0, 0.80); font-size: 23px; font-family: Abhaya Libre; font-weight: 400; text-decoration: underline; line-height: 12px; word-wrap: break-word;
+}
+.Phonenumberper{
+    width: 233.50px; height: 17.22px; left: 210px; top: -5px; position: absolute; color: rgba(0, 0, 0, 0.80); font-size: 21px; font-family: Be Vietnam Pro; font-weight: 500; letter-spacing: 1px; word-wrap: break-word;
+}
+.Emailgroup{
+    width: 501px; height: 21px; left: 0px; top: 200.32px; position: absolute;
+}
+.Email{
+    width: 95px; height: 18.06px; left: -0px; top: 0px; position: absolute; color: rgba(0, 0, 0, 0.80); font-size: 23px; font-family: Abhaya Libre; font-weight: 400; text-decoration: underline; line-height: 12px; word-wrap: break-word;
+}
+.Emailper{
+    width: 390px; height: 17.53px; left: 100px; top: -5px; position: absolute; color: rgba(0, 0, 0, 0.80); font-size: 21px; font-family: Be Vietnam Pro; font-weight: 500; letter-spacing: 1px; word-wrap: break-word;
+}
+.Gentergroup{
+    width: 501px; height: 21px; left: 0px; top: 130.02px; position: absolute;
+}
+.Genter{
+    width: 109.83px; height: 18.06px; left: 0px; top: 0px; position: absolute; color: rgba(0, 0, 0, 0.80); font-size: 23px; font-family: Abhaya Libre; font-weight: 400; text-decoration: underline; line-height: 12px; word-wrap: break-word;
+}
+.Genterper{
+    width: 174.35px; height: 17.22px; left: 145.07px; top: -5px; position: absolute; color: rgba(0, 0, 0, 0.80); font-size: 21px; font-family: Be Vietnam Pro; font-weight: 500; letter-spacing: 1px; word-wrap: break-word;
+}
+.Lastnamegroup{
+    width: 446px; height: 20.37px; left: -0px; top: 60.11px; position: absolute;
+}
+.LastName{
+    width: 150.14px; height: 18.06px; left: -0px; top: 2.32px; position: absolute; color: rgba(0, 0, 0, 0.80); font-size: 23px; font-family: Abhaya Libre; font-weight: 400; text-decoration: underline; line-height: 12px; word-wrap: break-word;
+}
+.Lastnameper{
+    width: 295px; height: 17.53px; left: 151px; top: -5px; position: absolute; color: rgba(0, 0, 0, 0.80); font-size: 21px; font-family: Be Vietnam Pro; font-weight: 500; letter-spacing: 1px; word-wrap: break-word;
+}
+.Firstnamegroup{
+    width: 377px; height: 21.49px; left: 0px; top: 0px; position: absolute;
+}
+.FirstName{
+    width: 160px; height: 18.04px; left: -0px; top: 0px; position: absolute; color: rgba(0, 0, 0, 0.80); font-size: 23px; font-family: Abhaya Libre; font-weight: 400; text-decoration: underline; line-height: 12px; word-wrap: break-word;
+}
+.Firstnameper{
+    width: 224px; height: 17.53px; left: 153px; top: -5px; position: absolute; color: rgba(0, 0, 0, 0.80); font-size: 21px; font-family: Be Vietnam Pro; font-weight: 500; letter-spacing: 1px; word-wrap: break-word;
+}
+.ReviewBooking{
+    width: 447px; height: 60.83px; left: 108px; top: 54.64px; position: absolute; text-align: center; color: black; font-size: 28px; font-family: Be Vietnam Pro; font-weight: 700; line-height: 35px; letter-spacing: 1px; word-wrap: break-word;
+}
+.Topbar{
+    width: 1440px; height: 70px; left: 0px; top: 0px; position: absolute;
+}
+.Rectangle{
+    width: 1440px; height: 70px; left: 0px; top: 0px; position: absolute; background: #1C6280;
+}
+.Topbardetail{
+    width: 1336px; height: 25px; left: 104px; top: 23px; position: absolute;
+}
+.Charity{
+    width: 92px; height: 22px; left: 704px; top: 2px; position: absolute; color: #FFC700; font-size: 16px; font-family: Lato; font-weight: 600; word-wrap: break-word;
+}
+.Blog{
+    width: 83px; height: 22px; left: 832px; top: 2px; position: absolute; color: #FFC700; font-size: 16px; font-family: Lato; font-weight: 600; word-wrap: break-word;
+}
+.AboutUs{
+    width: 118px; height: 22px; left: 936px; top: 2px; position: absolute; color: #FFC700; font-size: 16px; font-family: Lato; font-weight: 600; word-wrap: break-word;
+}
+.CreateAccount{
+    width: 200px; height: 23px; left: 1048px; top: 2px; position: absolute; color: #FFC700; font-size: 16px; font-family: Lato; font-weight: 600; word-wrap: break-word;
+}
+.SignIn{
+    width: 120px; height: 23px; left: 1216px; top: 2px; position: absolute; color: #FFC700; font-size: 16px; font-family: Lato; font-weight: 600; word-wrap: break-word;
+}
+.Activitygroup{
+    width: 797px; height: 737px; left: 0px; top: 499px; position: absolute;
+}
+.Actvitybg{
+    width: 797px; height: 752px; left: 0px; top: 0px; position: absolute;
+}
+.Act3group{
+    width: 444.86px; height: 60.79px; left: 177px; top: 309.90px; position: absolute;
+}
+.Dayact3{
+    width: 190px; height: 60px; padding-left: 24px; padding-right: 24px; padding-top: 15px; padding-bottom: 15px; left: 217px; top: -25px; position: absolute; background: #E7EAEC; border-radius: 20px; flex-direction: column; justify-content: center; align-items: flex-start; gap: 10px; display: inline-flex;
+}
+.Data3{
+    justify-content: center; align-items: center; gap: 17px; display: inline-flex;
+}
+.Date3{
+    justify-content: center; align-items: center; gap: 8px; display: flex;
+}
+
+.MonthDay3{
+    width: 69px; height: 15px; color: #333333; font-size: 14px; font-family: Roboto; font-weight: 400; word-wrap: break-word;
+}
+.Line3{
+    width: 20.40px; height: 0px; transform: rotate(90deg); transform-origin: 1 0; border: 0.84px #BDBDBD solid;
+}
+.Hour3{
+    justify-content: flex-start; align-items: center; gap: 8px; display: flex;
+}
+
+.time3{
+    width: 35px; height: 13px; color: #333333; font-size: 14px; font-family: Roboto; font-weight: 400; word-wrap: break-word;
+}
+.actname1{
+    width: 175px; height: 42px; left: 0px; top: 2.10px; position: absolute; color: black; font-size: 25px; font-family: Be Vietnam Pro; font-weight: 400; line-height: 17px; letter-spacing: 1px; word-wrap: break-word;
+}
+.Act2group{
+    width: 443.86px; height: 63px; left: 177px; top: 208px; position: absolute;
+}
+.Dayact2{
+    width: 190px; height: 60px; padding-left: 24px; padding-right: 24px; padding-top: 15px; padding-bottom: 15px; left: 216px; top: 0px; position: absolute; background: #E7EAEC; border-radius: 20px; flex-direction: column; justify-content: center; align-items: flex-start; gap: 10px; display: inline-flex;
+}
+.Data2{
+    justify-content: center; align-items: center; gap: 17px; display: inline-flex;
+}
+.Date2{
+    justify-content: center; align-items: center; gap: 8px; display: flex;
+}
+
+.MonthDay2{
+    width: 69px; height: 15px; color: #333333; font-size: 14px; font-family: Roboto; font-weight: 400; word-wrap: break-word;
+}
+.Line2{
+    width: 20.40px; height: 0px; transform: rotate(90deg); transform-origin: 1 0; border: 0.84px #BDBDBD solid;
+}
+.Hour2{
+    justify-content: flex-start; align-items: center; gap: 8px; display: flex;
+}
+
+.time2{
+    width: 35px; height: 13px; color: #333333; font-size: 14px; font-family: Roboto; font-weight: 400; word-wrap: break-word;
+}
+.Activity2{
+    width: 144px; height: 42px; left: 0px; top: 21px; position: absolute; color: black; font-size: 25px; font-family: Be Vietnam Pro; font-weight: 400; line-height: 17px; letter-spacing: 1px; word-wrap: break-word;
+}
+.Act1group{
+    width: 444.86px; height: 59.06px; left: 177px; top: 129px; position: absolute;
+}
+.Dayact1{
+    width: 190px; height: 60px; padding-left: 24px; padding-right: 24px; padding-top: 15px; padding-bottom: 15px; left: 217px; top: 0px; position: absolute; background: #E7EAEC; border-radius: 20px; flex-direction: column; justify-content: center; align-items: flex-start; gap: 10px; display: inline-flex;
+}
+.Data1{
+    justify-content: center; align-items: center; gap: 17px; display: inline-flex;
+}
+.Date1{
+    justify-content: center; align-items: center; gap: 8px; display: flex;
+}
+
+.MonthDay1{
+    width: 69px; height: 15px; color: #333333; font-size: 14px; font-family: Roboto; font-weight: 400; word-wrap: break-word;
+}
+.Line1{
+    width: 20.40px; height: 0px; transform: rotate(90deg); transform-origin: 1 0; border: 0.84px #BDBDBD solid;
+}
+.Hour1{
+    justify-content: flex-start; align-items: center; gap: 8px; display: flex;
+}
+.Vector1{
+    width: 14.13px; height: 14.41px; background: #333333;
+}
+.time1{
+    width: 35px; height: 13px; color: #333333; font-size: 14px; font-family: Roboto; font-weight: 400; word-wrap: break-word;
+}
+.Actvity1{
+    width: 186px; height: 42px; left: 0px; top: 17px; position: absolute; color: black; font-size: 25px; font-family: Be Vietnam Pro; font-weight: 400; line-height: 17px; letter-spacing: 1px; word-wrap: break-word;
+}
+.Activity{
+    width: 214px; height: 29.30px; left: 311px; top: 50px; position: absolute; color: black; font-size: 28px; font-family: Be Vietnam Pro; font-weight: 700; line-height: 12px; word-wrap: break-word;
+}
+.Typeroomgroup{
+    width: 797px; height: 400px; left: 0px; top: 71px; position: absolute;
+}
+.Detailroom{
+    width: 797px; height: 428px; left: 0px; top: -10px; position: absolute;
+}
+.Boxdetail{
+    width: 296px; height: 211px; left: 442px; top: 144px; position: absolute; background: rgba(66, 133, 244, 0.6);
+    
+}
+.Roombg{
+    width: 797px; height: 428px; left: 0px; top: 0px; position: absolute;
+}
+.BathNight{
+    width: 253.43px; height: 26px; left: 480px; top: 220px; position: absolute; color: black; font-size: 19px; font-family: Be Vietnam Pro; font-weight: 500; letter-spacing: 1px; word-wrap: break-word;
+}
+.Typeroomdata{
+    width: 253.80px; height: 23px; left: 480px; top: 220px; position: absolute; color: black; font-size: 24px; font-family: Be Vietnam Pro; font-weight: 400; line-height: 17px; letter-spacing: 1px; word-wrap: break-word;
+}
+.room{
+    width: 391.40px; height: 211px; left: 55px; top: 134px; position: absolute;
+}
+.TypeRoom{
+    width: 212px; height: 59px; left: 273px; top: 35px; position: absolute; text-align: center; color: black; font-size: 28px; font-family: Be Vietnam Pro; font-weight: 700; line-height: 35px; letter-spacing: 1px; word-wrap: break-word;
+}
+.navber{
+    background-color: #1C6280;
+    /* background-color: #0b2c28; */
+    width: 100%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+    }
+    
+    .logo{
+    width: 60px;
+    cursor: pointer;
+    margin-left: 30px;
+    }
+    
+    .navber ul li{
+    margin-top: 10px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    }
+    
+    .navber ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 20px;
+    }
+    
+    .navber ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+    }
+    
+    .navber ul li:hover::after{
+    width: 100%;
+    }

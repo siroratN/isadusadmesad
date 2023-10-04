@@ -1,0 +1,275 @@
+*{
+    margin: 0; padding: 0;  box-sizing: border-box;
+}
+body {
+    /* width: 1440px; */
+    
+    height: 1000px;
+    position: relative;
+    background: white;
+}
+.Image4{
+    width: 216px;
+    height: 128px;
+    left: 73px;
+    top: 394px; position: absolute; border-radius: 15px;
+}
+.Image3{
+    width: 216px; height: 128px; left: 73px; top: 251px; position: absolute; border-radius: 15px;
+}
+.Image2{
+    width: 216px; height: 128px; left: 73px; top: 108px; position: absolute; border-radius: 15px;
+}
+.Image1{
+    width: 638px; height: 414px; left: 311px; top: 108px; position: absolute; border-radius: 15px;
+}
+.Line{
+    width: 876.01px; height: 0px; left: 73px; top: 635px; position: absolute; border: 2px #BDBDBD solid;
+}
+.Star{
+    width: 113px; height: 20.66px; left: 347px; top: 577px; position: absolute;
+}
+.Star1{
+    width: 22.10px; height: 20.66px; left: 15px; top: 0px; position: absolute;
+}
+.Star2{
+    width: 22.10px; height: 20.66px; left: 37.98px; top: 0px; position: absolute;
+}
+.Star3{
+    width: 22.10px; height: 20.66px; left: 60.97px; top: 0px; position: absolute;
+}
+.Star4{
+    width: 22.10px; height: 20.66px; left: 83.95px; top: 0px; position: absolute;
+}
+.Star5{
+    width: 22.10px; height: 20.66px; left: 105.90px; top: 0px; position: absolute;
+}
+.Typeroom{
+    left: 73px; top: 568px; position: absolute; text-align: center; color: black; font-size: 30px; font-family: Roboto; font-weight: 700; letter-spacing: 0.60px; word-wrap: break-word;
+}
+.Roomdetail{
+    height: 187px; left: 73px; top: 743px; position: absolute;
+}
+.Roomdetail{
+    height: 187px; left: 73px; top: 743px; position: absolute;
+}
+.Alldetail{
+    width: 874px; left: 0px; top: 45px; position: absolute; mix-blend-mode: darken; color: black; font-size: 21px; font-family: Ubuntu; font-weight: 400; line-height: 22px; word-wrap: break-word;
+}
+.Description{
+    left: 0px; top: 0px; position: absolute; text-align: center; color: black; font-size: 26px; font-family: Roboto; font-weight: 700; letter-spacing: 0.52px; word-wrap: break-word;
+}
+.Topbar{
+    width: 1440px; height: 74px; left: 0px; top: 0px; position: absolute;
+}
+.reviewbox{
+    width: 1440px; height: 74px; left: 0px; top: 0px; position: absolute; background: #1C6280;
+}
+.Logoall{
+    width: 216px; height: 50px; left: 42px; top: 12px; position: absolute;
+}
+.Dog{
+    width: 61px; height: 50px; left: 0px; top: 0px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex;
+}
+.Hotel{
+    width: 147px; height: 20px; left: 69px; top: 15px; position: absolute; color: #FD9B10; font-size: 20px; font-family: Quicksand; font-weight: 700; word-wrap: break-word;
+}
+.Home{
+    left: 1299px; top: 25px; position: absolute; color: #FFC700; font-size: 20px; font-family: Lato; font-weight: 600; word-wrap: break-word;
+}
+.Bookprice{
+    width: 337px; height: 58px; left: 604px; top: 550px; position: absolute;
+}
+.Price{
+    width: 97px; height: 44px; left: 50px; top: 20px; position: absolute; color: #4285F4; font-size: 30px; font-family: Urbanist; font-weight: 400; word-wrap: break-word;
+}
+.PerNight{
+    width: 96px; height: 21px; left: 125px; top: 32px; position: absolute; color: #4285F4; font-size: 16px; font-family: Montserrat; font-weight: 700; word-wrap: break-word;
+}
+.BookButton{
+    width: 120px; height: 40px; padding-left: 21px; padding-right: 21px; padding-top: 10px; padding-bottom: 17px; left: 210px; top: 20px; position: absolute; background: #4285F4; border-radius: 15px; justify-content: center; align-items: center; display: inline-flex;
+    color: black; font-size: 15px; font-family: Montserrat; font-weight: 700; word-wrap: break-word;
+}
+
+.Emojidetail{
+    width: 910px; height: 42px; left: 73px; top: 660px; position: absolute;
+}
+.Bedsize{
+    width: 142px; height: 27px; left: 70px; top: 15px; position: absolute; color: black; font-size: 18px; font-family: Montserrat; font-weight: 700; word-wrap: break-word;
+}
+.Guests{
+    width: 152px; height: 27px; left: 312px; top: 15px; position: absolute; color: black; font-size: 18px; font-family: Montserrat; font-weight: 700; word-wrap: break-word;
+}
+.Arearoom{
+    width: 85px; height: 27px; left: 573px; top: 15px; position: absolute; color: black; font-size: 18px; font-family: Montserrat; font-weight: 700; word-wrap: break-word;
+}
+.Bathroom{
+    width: 142px; height: 27px; left: 768px; top: 15px; position: absolute; color: black; font-size: 18px; font-family: Montserrat; font-weight: 700; word-wrap: break-word;
+}
+.Bedimg{
+    width: 48.33px; height: 26.32px; left: 0px; top: 15px; position: absolute;
+}
+.Guestsimg{
+    width: 46px; height: 35.54px; left: 251px; top: 6px; position: absolute;
+}
+.Areaimg{
+    width: 48px; height: 39.75px; left: 507px; top: 0px; position: absolute;
+}
+.Bathimg{
+    width: 42px; height: 40.82px; left: 713px; top: 0px; position: absolute;
+}
+.Review{
+    width: 397.08px; height: 834px; left: 974.97px; top: 108px; position: absolute;
+}
+.Boxreview{
+    width: 397px; height: 834px; left: 0.03px; top: 0px; position: absolute; background: rgba(66, 133, 244, 0.30); border-radius: 15px;
+}
+.Reviewamount{
+    width: 83px; height: 17.06px; left: 149.03px; top: 72.97px; position: absolute; text-align: center; color: black; font-size: 15px; font-family: Roboto; font-weight: 400; letter-spacing: 0.30px; word-wrap: break-word;
+}
+.GuestsReview{
+    width: 183px; height: 30.33px; left: 107.03px; top: 18.95px; position: absolute; text-align: center; color: black; font-size: 27px; font-family: Roboto; font-weight: 400; letter-spacing: 0.54px; word-wrap: break-word;
+}
+.Line9{
+    width: 397.08px; height: 0px; left: 0px; top: 63.85px; position: absolute; border: 1.50px white solid;
+}
+.Review4{
+    width: 344px; height: 87px; left: 27.03px; top: 585px; position: absolute;
+}
+.Reviewdetail4{
+    width: 344px; height: 54px; left: 0px; top: 33px; position: absolute; color: #133240; font-size: 18px; font-family: Manrope; font-weight: 400; letter-spacing: 0.36px; word-wrap: break-word;
+}
+.Reviewcus4{
+    width: 93px; height: 26px; left: 0px; top: 0px; position: absolute; color: #133240; font-size: 20px; font-family: Manrope; font-weight: 600; letter-spacing: 0.40px; word-wrap: break-word;
+}
+.Review3{
+    width: 344px; height: 87px; left: 27.03px; top: 450px; position: absolute;
+}
+.Reviewdetail3{
+    width: 344px; height: 54px; left: 0px; top: 33px; position: absolute; color: #133240; font-size: 18px; font-family: Manrope; font-weight: 400; letter-spacing: 0.36px; word-wrap: break-word;
+}
+.Reviewcus3{
+    width: 93px; height: 25.59px; left: 0px; top: 0px; position: absolute; color: #133240; font-size: 20px; font-family: Manrope; font-weight: 600; letter-spacing: 0.40px; word-wrap: break-word;
+}
+.Review2{
+    width: 344px; height: 216px; left: 27.03px; top: 254px; position: absolute;
+}
+.Reviewcus2{
+    width: 177px; height: 27.90px; left: 0px; top: 0px; position: absolute; color: #133240; font-size: 20px; font-family: Manrope; font-weight: 600; letter-spacing: 0.40px; word-wrap: break-word;
+}
+.Reviewdetail2{
+    width: 344px; height: 179.83px; left: 0px; top: 36.17px; position: absolute; color: #133240; font-size: 18px; font-family: Manrope; font-weight: 400; letter-spacing: 0.36px; word-wrap: break-word;
+}
+.Review1{
+    width: 340px; height: 131.73px; left: 27.03px; top: 105.20px; position: absolute;
+}
+.Reviewcus1{
+    width: 160px; height: 25.59px; left: 0px; top: 0px; position: absolute; color: #133240; font-size: 20px; font-family: Manrope; font-weight: 600; letter-spacing: 0.40px; word-wrap: break-word;
+}
+.Reviewdetail1{
+    width: 340px; height: 101.41px; left: 0px; top: 30.33px; position: absolute; color: #133240; font-size: 18px; font-family: Manrope; font-weight: 400; letter-spacing: 0.36px; word-wrap: break-word;
+}
+
+
+.imageall {
+    width: 650px; height: 450px;
+    left: 305px; top: 100px;
+    position: absolute;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.images {
+    display: flex;
+    width: 650px; height: 410px;
+    
+}
+.images img {
+    width: 638px; height: 414px;
+    transition: all 0.3s ease;
+    flex:1 0 100%;
+}
+.images input {
+    display: none;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots label {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    border: solid #979797 3px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 5px;
+}
+.dots label:hover {background: #979797;}
+#img1:checked ~ .m1 {
+    margin-left: 0;
+}
+#img2:checked ~ .m2 {
+    margin-left: -100%;
+}
+#img3:checked ~ .m3 {
+    margin-left: -200%;
+}
+#img4:checked ~ .m4 {
+    margin-left: -300%;
+}
+.navber{
+    background-color: #1C6280;
+    /* background-color: #0b2c28; */
+    width: 100%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+    }
+    
+    .logo{
+    width: 60px;
+    cursor: pointer;
+    margin-left: 30px;
+    }
+    
+    .navber ul li{
+    margin-top: 10px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+    }
+    
+    .navber ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 20px;
+    }
+    
+    .navber ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+    }
+    
+    .navber ul li:hover::after{
+    width: 100%;
+    }
