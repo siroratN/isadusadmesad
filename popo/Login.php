@@ -129,14 +129,14 @@
                     <span class="icon">
                         <ion-icon name="id-card-outline"></ion-icon>
                     </span>
-                    <input type="idcard" name="id_card" required>
+                    <input type="number" name="id_card" required>
                     <label>ID Card</label>
                 </div>
                 <div class="input-box">
                     <span class="icon">
                         <ion-icon name="call-outline"></ion-icon>
                     </span>
-                    <input type="phone" name="phone" required>
+                    <input type="number" name="phone" required>
                     <label>Phone</label>
                 </div>
                 <div class="input-box">
