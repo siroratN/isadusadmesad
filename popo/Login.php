@@ -1,4 +1,4 @@
-<?php include("connectreview.php");?>
+<?php include("connect.php");?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -41,7 +41,7 @@
                     // header("location:seccion.php");
                     $password = $_GET["pass"];                                                             
                     $sql = "SELECT * FROM customers where email = '$email'";
-                    $result= mysqli_query($db, $sql);
+                    $result= mysqli_query($con, $sql);
                     $row= mysqli_fetch_array($result);
                     if($row['email'] == NULL){
                         $message = "ไม่มีบัญชี";
@@ -180,4 +180,4 @@
 </body>
 </html>
 
-<?php mysqli_close($db)?>
+<?php mysqli_close($con)?>

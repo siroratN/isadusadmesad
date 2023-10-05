@@ -1,5 +1,5 @@
 <?php
-    require('connectreview.php');
+    include('connect.php');
 ?>
 
 <!DOCTYPE html>
@@ -51,7 +51,7 @@
         session_start();
         $cus_id = $_SESSION['cus_id'];
         $sql = "SELECT * FROM customers where cus_id = '$cus_id'";
-        $result = mysqli_query($db, $sql);
+        $result = mysqli_query($con, $sql);
         $row = mysqli_fetch_assoc($result);
     ?>
 
@@ -353,4 +353,4 @@
 </body>
 </html>
 
-<?php mysqli_close($db)?>
+<?php mysqli_close($con)?>

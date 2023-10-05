@@ -1,3 +1,4 @@
+<?php include("connect.php")?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,14 +9,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-
-
     <div class="container">
         <div id="slide">
-            <div class="item" style="background-image: url(https://img.rezdy.com/PRODUCT_IMAGE/79858/Parasailing_0016_lg.jpg);">
+
+        <?php
+        $sql = "SELECT * FROM activity";
+        $result = mysqli_query($con, $sql);
+        ?>
+        <?php
+        while ($row = $result->fetch_assoc()) {
+        ?>
+            <div class="item" style="background-image: url(<?php echo $row['path_img'] ?>);">
                 <div class="content">
-                    <div class="name">2Whale Watching</div>
-                    <div class="des">Best Places for Whale Watching - When to Go Whale Watching</div>
+                    <div class="name"><?php echo $row['act_name'] ?></div>
+                    <div class="des"><?php echo $row['description'] ?></div>
                     <h2 style="font-size: 14px;">Number of people doing activities</h2>
                     <input type="number" id="typeNumber" class="form-control" min="0" placeholder="ex 3" style="height: 20px; width: 80px;border-radius: 20px ;"/>
                     <h2 style="font-size: 14px;">Choose a day to do the activity</h2>
@@ -23,8 +30,11 @@
                     <button>Booking activity</button>
                 </div>
             </div>
-
-            <div class="item" style="background-image: url(https://hips.hearstapps.com/hmg-prod/images/where-to-go-whale-watching-virginia-1522419979.jpg);">
+        <?php
+        }
+        mysqli_close($con);
+        ?>
+            <!-- <div class="item" style="background-image: url(https://hips.hearstapps.com/hmg-prod/images/where-to-go-whale-watching-virginia-1522419979.jpg);">
                 <div class="content">
                     <div class="name">Whale Watching</div>
                     <div class="des">Best Places for Whale Watching - When to Go Whale Watching</div>
@@ -82,7 +92,7 @@
                     <input type="date" id="start" name="trip-start" placeholder="ex 2023-07-22" style="border-radius: 20px;"/>
                     <button>Booking activity</button>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="buttons">
             <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
@@ -93,3 +103,4 @@
     <script src = "activity.js"></script>
 </body>
 </html>
+<!-- <?php mysqli_close($con)?> -->
