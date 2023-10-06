@@ -1,5 +1,5 @@
 <?php
-require('connectreview.php');
+include('connect.php');
 session_start();
 $cus_id = $_SESSION['cus_id'];
 $query = "select *
@@ -365,4 +365,4 @@ $result = mysqli_query($db, $query);
 
 </html>
 
-
+<?php mysqli_close($db)?>
