@@ -3,9 +3,11 @@ require('C:\xamppp\htdocs\isadusadmesad\dbconnect.php');
 session_start();
 $type = $_POST["type"];
 $check_in = $_POST['check_in'];
+$_SESSION['check_in'] = $check_in;
 $check_out = $_POST['check_out'];
+$_SESSION['check_out'] = $check_out;
 $guest = $_POST['guest'];
-$cus_id = $_SESSION['cusid'];
+$cus_id = $_SESSION['cus_id'];
 $query = "select first_name
               from customers
               WHERE cus_id = '$cus_id'";
@@ -17,7 +19,7 @@ $queryy = "select * from rooms
                 JOIN images
                 ON rooms.type_id = type_room.type_id 
                 AND rooms.room_num = images.room_num
-                WHERE type_name = '$type' AND max_guests >= '$guest' AND status = 'AV' ";
+                WHERE type_name = '$type' AND max_guests = '$guest' AND status = 'AV'";
 $resultt = mysqli_query($con, $queryy);
 
 ?>
@@ -48,7 +50,7 @@ $resultt = mysqli_query($con, $queryy);
 <body>
     <div class="navber">
         <div style="display: flex; flex-direction: row; gap: 10px;">
-            <img src="icon_hotal.png" alt="" class="logo">
+            <img src=".././popo/background/icon_hotal.png" alt="" class="logo">
             <p class="name-hotal" style="margin-top:15px; text-decoration: none; color: #fff; text-transform: uppercase;">Hotel gangnam luna poon</p>
         </div>
         <ul>
@@ -127,28 +129,15 @@ $resultt = mysqli_query($con, $queryy);
         <div class="room">
             <img src="../image/<?php echo $row['path_image'];?>"class="room-img"/>
             <div class="room-des">
-                <h4><?php echo $row['room_num'] ?></h4>
-                <?php
-                $_SESSION['roomnum'] = $row['room_num']
-                
-                ;
-                ?>
+                <h2><?php echo $_SESSION["room_num"] = $row['room_num']; ?></h2>
                 <div class="icon-group">
                     <div>
-                        <ion-icon class="icon" name="bed-outline"></ion-icon>
-                        <p>2 beds</p>
-                    </div>
-                    <div>
                         <ion-icon class="icon" name="accessibility-outline"></ion-icon>
-                        <p><?php echo $row['max_guests'] ?></p>
-                    </div>
-                    <div>
-                        <ion-icon class="icon" name="square-outline"></ion-icon>
-                        <p>214m2</p>
+                        <p><?php echo $_SESSION["max_guests"] = $row['max_guests'] ?></p>
                     </div>
                 </div>
                 <p style="width: 500px;"><?php echo $row['detail'] ?></p>
-                <div id="see-detail" class="btn btn-warning"><a href="../roommm/room.php">kuy</a></div>
+                <div id="see-detail" class="btn btn-warning"><a href="../tigernaja/room.php?id=<?= $row["room_num"] ?>">kuy</a></div>
             </div>
         </div>
     <?php

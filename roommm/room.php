@@ -11,11 +11,8 @@
 </head>
 
 <body>
-  <?php
-        $sql = "SELECT * FROM rooms WHERE room_num = 102";
-        $result = mysqli_query($connection, $sql);
-        $rows = mysqli_fetch_assoc($result);
-  ?>
+
+
 <div class="navber">
         <div style="display: flex; flex-direction: row; gap: 10px;">
             <img src="icon_hotal.png" alt="" class="logo">
@@ -62,10 +59,10 @@
       <img class="Star4" src="star.png" />
       <img class="Star5" src="star.png" />
     </div>
-    <div class="Typeroom" >STANDARD ROOM</div>
+    <div class="Typeroom" ></div>
     <div class="Roomdetail" >
 
-      <div class="Alldetail"><?php echo $rows["detail"]?></div>
+      <div class="Alldetail"></div>
       <div class="Description" >Description</div>
     </div>
     <div class="Bookprice">
@@ -110,4 +107,4 @@
 </body>
 </html>
 
-<?php mysqli_close($connection); ?>
+
