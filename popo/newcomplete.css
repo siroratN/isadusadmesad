@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(managebg.jpg);
+    background-size: cover;
+}
+.navber{
+    background-color: #1C6280;
+    /* background-color: #0b2c28; */
+    width: 100%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+}
+.logo{
+    width: 60px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.navber ul li{
+    margin-top: 10px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navber ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.navber ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+
+.navber ul li:hover::after{
+    width: 100%;
+}
+.header {
+    background-color: #4AE4C9;
+    padding: 1px 40px 1px 40px;
+    width: 500px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    margin-top: 60px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.confirmation {
+    display: flex;
+    flex-direction: column;
+}
+/* Styles for the header */
+h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.toppara {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+h2 {
+    text-align: center;
+    margin-bottom:40px;
+}
+
+/* Styles for the payment sleeve */
+.payment-sleeve {
+    padding: 25px 40px 25px 40px;
+    width: 500px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.payment-info {
+    font-size: 18px;
+}
+
+/* Grid layout for payment details */
+.payment-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 60px 100px;
+    text-align: justify;
+
+}
+
+.Line1 {
+    width: 90%;
+    border: 1.5px #BDBDBD solid;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

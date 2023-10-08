@@ -85,6 +85,7 @@ body{
     align-items: start;
     margin-left: auto;
     margin-right: auto;
+    color: #fff;
 }
 
 .icon{
@@ -111,7 +112,6 @@ body{
     height: 424px;
     /* background-color:  rgba(66, 133, 244, 0.30); */
     background-color: #b0cbf7;
-    border-radius: 20px;
     display: flex;
     flex-direction: row;
     align-self: center;
@@ -139,6 +139,7 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
     gap: 1px;
+    margin-left: 70px;
 }
 
 .icon-group div{

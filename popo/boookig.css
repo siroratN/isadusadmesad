@@ -5,66 +5,103 @@
     margin: 0;
 }
 
-.navber{
-    background-color: #1C6280;
-    /* background-color: #0b2c28; */
-    width: 100%;
-    margin: auto;
-    padding: 10px 0;
-    display: flex;
-    align-items:  center;
-    justify-content: space-between;
-  }
-  
-  .logo{
-    width: 60px;
-    cursor: pointer;
-    margin-left: 30px;
-  }
-  
-  .navber ul li{
-    margin-top: 10px;
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
-    position: relative;
-  }
-  
-  .navber ul li a{
-    text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
-    margin-top: 20px;
-  }
-  
-  .navber ul li::after{
-    content: '';
-    height: 3px;
-    width: 0;
-    background: #009688;
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    transition: 0.5s;
-  }
-  
-  .navber ul li:hover::after{
-    width: 100%;
-  }
-
 body{
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+
+.navber{
+  background-color: #1C6280;
+  /* background-color: #0b2c28; */
+  width: 100%;
+  margin: auto;
+  padding: 10px 0;
+  display: flex;
+  align-items:  center;
+  justify-content: space-between;
+  font-family: 'Gabarito', cursive;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+  width: 60px;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+.navber ul li{
+  margin-top: 10px;
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+
+.navber ul li a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.navber ul li::after{
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  transition: 0.5s;
+}
+
+.navber ul li:hover::after{
+  width: 100%;
+}
+
+.all{
+    margin: 40px;
+    padding: 30px;
 }
 
 .booking-top{
-    margin: 40px;
-    padding: 30px;
     font-family: 'Gabarito', cursive;
     font-family: 'Montserrat', sans-serif;
 }
-
-.booking{
-    background-color: azure;
+.search{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 20px;
+  position: relative;
 }
 
+.search_booking_id{
+  position: absolute;
+  top: 5px;
+  right: 75px;
+  height: 30px;
+}
+
+.booking{
+  width: 100%;
+  padding: 25px;
+  background-color: rgb(177, 200, 233);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 5px;
+  border-radius: 15px;
+}
+
+.booking div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.status-booking{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}

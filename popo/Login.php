@@ -39,7 +39,11 @@
                     session_start();
                     $email = $_GET["mail"];
                     // header("location:seccion.php");
-                    $password = $_GET["pass"];                                                             
+                    $password = $_GET["pass"];
+                    if(($email == "gangnam@gmail.com") && ($password == "1234")){
+                        header("Location: http://localhost/isadusadmesad/popo/admin.php#");
+                    }
+                    
                     $sql = "SELECT * FROM customers where email = '$email'";
                     $result= mysqli_query($con, $sql);
                     $row= mysqli_fetch_array($result);
@@ -51,13 +55,11 @@
                             $_SESSION['cus_id'] = $row['cus_id'];
                             header("Location: http://localhost/isadusadmesad/popo/home.php");
                         }else{
-                            $messages = "โง่";
-                            echo "<script type='text/javascript'>alert('$messages');</script>";
+                            $mesg = "ควย";
+                            echo "<script type='text/javascript'>alert('$mesg');</script>";
                         }
                     }
-                }
-                
-                
+                }           
             ?>
 
             <form>

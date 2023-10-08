@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Montserrat:wght@400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gabarito', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+.navber{
+    background-color: #1C6280;
+    /* background-color: #0b2c28; */
+    width: 100%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items:  center;
+    justify-content: space-between;
+    font-family: 'Gabarito', cursive;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .logo{
+    width: 60px;
+    cursor: pointer;
+    margin-left: 30px;
+  }
+  
+  .navber ul li{
+    margin-top: 10px;
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+  }
+  
+  .navber ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 20px;
+  }
+  
+  .navber ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+  }
+  
+  .navber ul li:hover::after{
+    width: 100%;
+  }
+
+.container{
+    margin: 30px;
+    padding: 25px;
+    /* background-color: #1C6280; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.detail{
+    padding: 35px;
+    background-color: #cffff6;
+}
+
+
+.top-des{
+    margin-top: 20px;
+    margin-bottom: -20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.customer{
+    margin-left: 100px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.customer div{
+    margin-bottom: -10px;
+}
+
+.line {
+    width: 20%;
+    border-top: 2px green solid;
+}
